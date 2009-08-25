@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CVkontakteGui!</string>
+    <string name="app_name">VKontakte</string>
+    
+    <string name="set_status">Установить статус</string>
+	<string name="ok">Ok</string>
+	<string name="remove_status">Убрать</string>
+    <string name="online_only">  Только онлайн</string>
+    <string name="from">От: </string>
+    <string name="to">Кому: </string>
+    
+    <string name="i">Я</string>
+    <string name="friends">Друзья</string>
+    <string name="messages">Сообщения</string>
+</resources>
