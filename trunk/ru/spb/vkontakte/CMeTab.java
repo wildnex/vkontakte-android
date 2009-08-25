@@ -1,4 +1,4 @@
-package ru.spb.vkontakte;
+package org.googlecode.vkontakte_android;
 
 import android.app.Activity;
 import android.graphics.drawable.BitmapDrawable;

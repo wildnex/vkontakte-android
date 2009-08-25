@@ -1,16 +1,42 @@
-package ru.spb.vkontakte;
+package org.googlecode.vkontakte_android;
 
 import android.app.TabActivity;
 import android.content.Intent;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.widget.TabHost;
+import android.widget.Gallery;
+import android.widget.Toast;
+import android.view.View;
+import org.googlecode.userapi.VkontakteAPI;
+
+import java.io.IOException;
 
 public class CGuiTest extends TabActivity {
+    public static VkontakteAPI api;
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+
+        api = new VkontakteAPI();
+        final LoginDialog ld = new LoginDialog(this);
+        ld.show();
+        ld.setOnClick(new View.OnClickListener() {
+            public void onClick(View view) {
+                try {
+                    if (api.login(ld.getLogin(), ld.getPass())) {
+                        ld.dismiss();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "login/pass incorrect", Toast.LENGTH_SHORT).show();
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        });
         
         // load icons from the files
         CImagesManager.loadImages(this);

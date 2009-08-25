@@ -1,34 +1,29 @@
-package ru.spb.vkontakte;
+package org.googlecode.vkontakte_android;
 
-import android.app.Activity;
+import android.app.ListActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TableLayout;
+import android.widget.AbsListView;
 
-public class CFriendsTab extends Activity {
+public class CFriendsTab extends ListActivity implements AbsListView.OnScrollListener {
+    private FriendsListAdapter adapter;
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-	
-        setContentView(R.layout.friends);
-        TableLayout table = (TableLayout) findViewById(R.id.friends_pane);
-        
-       
-        
-        //test
-        View v1 = CFriendFactory.getFriendView(this, "Friend #1", true);
-        View v2 = CFriendFactory.getFriendView(this, "Friend #2", true);
-        View v3 = CFriendFactory.getFriendView(this, "Friend #3", true);
-        View v4 = CFriendFactory.getFriendView(this, "Friend #4", false);
-        View v5 = CFriendFactory.getFriendView(this, "Friend #5", true);
-        table.addView(v1);
-        table.addView(v2);
-        table.addView(v3);
-        table.addView(v4);
-        table.addView(v5);
- 
-	
-	}
-	
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.friend_list);
+        adapter = new FriendsListAdapter(this, R.layout.friend_row);
+        setListAdapter(adapter);
+        getListView().setOnScrollListener(this);
+    }
+
+    public void onScroll(AbsListView v, int i, int j, int k) {
+    }
+
+    public void onScrollStateChanged(AbsListView v, int state) {
+        if (state == AbsListView.OnScrollListener.SCROLL_STATE_IDLE && getListView().getLastVisiblePosition() == adapter.getCount() - 1) {
+            adapter.prepareData();
+        }
+    }
+
 }

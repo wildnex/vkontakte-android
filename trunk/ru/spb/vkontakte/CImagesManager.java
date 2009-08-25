@@ -1,4 +1,4 @@
-package ru.spb.vkontakte;
+package org.googlecode.vkontakte_android;
 
 import java.io.InputStream;
 import java.util.HashMap;
