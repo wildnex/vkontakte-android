@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sent">Отправленные</string>
+    <string name="inbox">Входящие</string>
+    <string name="exit">Завершить</string>
+    <string name="logout">Выход</string>
+    <string name="app_name"> В Контакте</string>
+    <string name="app_description">Android-клиент для социальной сети Вконтакте</string>
+    <string name="legal">Информация о лицензии</string>
+    <string name="copyright">© 2009-2010 Ильдар Каримов, Евгений Баландин, Сергей Подтынный, Анастасия Дремина и другие</string>
+
+   <string name="set_status">Редактировать статус</string>
+    <string name="ok">Ok</string>
+    <string name="send">Отправить</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="remove_status">Убрать статус</string>
+    <string name="online_only">Только онлайн</string>
+    <string name="from">От:</string>
+    <string name="to">Кому:</string>
+
+    <string name="i">Моя страница</string>
+    <string name="friends">Друзья</string>
+    <string name="messages">Сообщения</string>
+    <string name="updates">Обновления</string>
+
+    <string name="prefs_title">Настройки</string>
+    <string name="period_title">Период обновления</string>
+    <string name="sound_title">Звук</string>
+    <string name="notif_title">Уведомления</string>
+    <string name="load_pics_title">Загружать картинки</string>
+
+    <string name="refresh">Обновить</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О программе</string>
+    <string name="send_message">Отправить сообщение</string>
+    <string name="remove_from_friends">Удалить из друзей</string>
+    <string name="view_profile">Посмотреть профиль</string>
+    <string name="add_to_friends">Добавить в друзья</string>
+    <string name="add_to_contacts">Добавить в контакты</string>
+    <string name="message_sent">Сообщение отправлено!</string>
+    <!--info-->
+    <string name="build">, билд</string>
+    <string name="version">Версия</string>
+    <!--status messages-->
+    <string name="status_online">Онлайн</string>
+    <string name="status_offline">Оффлайн</string>
+    <!--error messages-->
+    <string name="err_msg_check_connection">Нельзя послать сообщение. Проверьте соединение.</string>
+    <string name="err_msg_connection_problem">Проблемы соединения</string>
+    <string name="err_msg_fatal_error">Ну оооочень плохая ошибка. Соединение с сервисом невозможно</string>
+    <string name="err_msg_offer_report">Приложение неожиданно завершилось в прошлый раз. Отправите сообщение об ошибке? ^_^ </string>
+    <!--update statuses-->
+    <string name="status_update_ok">Обновление успешно</string>
+    <string name="status_update_err">Ошибка при обновлении</string>
+    <!--login message-->
+    <string name="login_err">Неправильные логин/пароль</string>
+    <string name="what_are_you_doing">Что вы сейчас делаете?</string>
+    <string name="mark_as_read">Пометить как прочитанное</string>
+    <!--user info-->
+    <string name="info_sex">Пол:</string>
+    <string name="info_birthday">День рождения:</string>
+    <string name="info_status">Семейное положение:</string>
+    <string name="info_views">Политические взгляды:</string>
+    <string name="info_location">Родной город:</string>
+    <string name="info_phone">Телефон:</string>
+    <string name="info_name">Имя:</string>
+    <string name="sex_female">Женский</string>
+    <string name="sex_male">Мужской</string>
+    <string name="info_city">Город:</string>
+    <!--family status-->
+    <string name="fs_single_female">Не женат</string>
+    <string name="fs_single_male">Не замужем</string>
+    <string name="fs_engaged_female">Помолвлен</string>
+    <string name="fs_engaged_male">Помолвлена</string>
+    <string name="fs_married_female">Замужем</string>
+    <string name="fs_married_male">Женат</string>
+    <string name="fs_as">В активном поиске</string>
+    <string name="fs_complicated">Всё сложно</string>
+    <string name="fs_relationship">Встречается</string>
+    <string name="send_by_me">Я</string>
+    <!--political views-->
+    <string name="pv_apathetic">Индиффирентные</string>
+    <string name="pv_communist">Коммунистические</string>
+    <string name="pv_socialist">Социалистические</string>
+    <string name="pv_moderate">Умеренные</string>
+    <string name="pv_liberal">Либеральные</string>
+    <string name="pv_conservative">Консервативные</string>
+    <string name="pv_monarchist">Монахрические</string>
+    <string name="pv_ultraconservative">Ультраконсервативные</string>
+    <!-- Notifications -->
+    <string name="notif_new_events">Новые события</string>
+    <string name="notif_new_friend">Новый друг</string>
+    <string name="notif_new_friends">Новые друзья</string>
+    <string name="notif_new_message">Новое сообщение</string>
+    <string name="notif_new_messages">Новые сообщения</string>
+    <string name="notif_new_photo">Новое фото</string>
+    <string name="notif_new_photos">Новые фото</string>
+    <string name="notif_friends">Друзей:</string>
+    <string name="notif_messages">Сообщений:</string>
+    <string name="notif_photos">Фото:</string>
+</resources>
