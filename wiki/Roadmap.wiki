@@ -1,14 +1,14 @@
 #summary План релизов
 
 *Версия 0.3* - 15 апреля
-  * Подгрузка аватарок в фоновом режиме, их кеширование.
-  * Сообщения _([http://code.google.com/p/vkontakte-android/issues/detail?id=21&can=1 Issue 21])_
+  * ~~Подгрузка аватарок в фоновом режиме, их кеширование _([http://code.google.com/p/vkontakte-android/issues/detail?id=48 Issue 48])_~~
+  * Сообщения _([http://code.google.com/p/vkontakte-android/issues/detail?id=21 Issue 21])_
     * догружать обрезанные сообщения
     * возможность удаления сообщений
     * отмечать прочитанные
     * возможность обновить сообщения в переписке
     * подгрузка более старых сообщений в переписке
-  * Капча.
+  * Капча _([http://code.google.com/p/vkontakte-android/issues/detail?id=12 Issue 12])_
 
 
 *Версия 0.4*
@@ -49,16 +49,3 @@
 Чат (мгновенные сообщения)
 
 1.0
-
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
