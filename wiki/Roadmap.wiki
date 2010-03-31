@@ -64,6 +64,6 @@
 *Версия 0.9*
   * Виджет статусов _[http://code.google.com/p/vkontakte-android/issues/detail?id=39 Issue 39]_
   * Чат (мгновенные сообщения)
+  * Счетчик трафика _[http://code.google.com/p/vkontakte-android/issues/detail?id=41 Issue 41]_
 
 *Версия 1.0*
-  * Счетчик трафика _[http://code.google.com/p/vkontakte-android/issues/detail?id=41 Issue 41]_
