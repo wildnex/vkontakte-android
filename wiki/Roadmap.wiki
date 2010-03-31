@@ -24,7 +24,7 @@
   * Рефакторинг провайдера БД (добавление аватарок в результаты к статусам, сообщениям и т.п.)
   * Исправление мелких ошибок автообновления
     * добавление настроек к автообновлению (звук, вибро)
-  * Улучшение интерфейса _[http://code.google.com/p/vkontakte-android/issues/detail?id=29 Issue 29]_
+  * Улучшение интерфейса _[http://code.google.com/p/vkontakte-android/issues/detail?id=29 Issue 29] [http://code.google.com/p/vkontakte-android/issues/detail?id=38 Issue 38]_
 
 *Версия 0.5*
   * Профиль _[http://code.google.com/p/vkontakte-android/issues/detail?id=1 Issue 1]_
