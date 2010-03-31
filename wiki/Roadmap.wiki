@@ -17,6 +17,7 @@
 
 *Версия 0.4*
   * Рефакторинг, чистка кода, удаление лишних классов _[http://code.google.com/p/vkontakte-android/issues/detail?id=44 Issue 44]_
+  * Добавить информацию о лицензии _[http://code.google.com/p/vkontakte-android/issues/detail?id=33 Issue 33]_
   * Систематический подход к обработке ошибок _[http://code.google.com/p/vkontakte-android/issues/detail?id=23 Issue 23] [http://code.google.com/p/vkontakte-android/issues/detail?id=42 Issue 42]_
   * Добавить логирование _[http://code.google.com/p/vkontakte-android/issues/detail?id=50 Issue 50]_
   * Правильное продление сессии
