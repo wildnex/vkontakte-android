@@ -10,7 +10,7 @@
     * подгрузка более старых сообщений в переписке
     * обработка тэгов HTML _[http://code.google.com/p/vkontakte-android/issues/detail?id=37 Issue 37]_
   * Капча _[http://code.google.com/p/vkontakte-android/issues/detail?id=12 Issue 12]_
-  * Добавить логирование (_[http://code.google.com/p/vkontakte-android/issues/detail?id=50 Issue 50]_)
+  * Добавить логирование _[http://code.google.com/p/vkontakte-android/issues/detail?id=50 Issue 50]_
   * Багфиксинг
     * Ошибка при синхронизации друзей (sqlite error 19)
 
