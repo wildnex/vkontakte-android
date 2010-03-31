@@ -66,3 +66,4 @@
   * Чат (мгновенные сообщения)
 
 *Версия 1.0*
+  * Счетчик трафика _[http://code.google.com/p/vkontakte-android/issues/detail?id=41 Issue 41]_
