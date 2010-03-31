@@ -13,6 +13,7 @@
   * Перевод на русский _[http://code.google.com/p/vkontakte-android/issues/detail?id=6 Issue 6] [http://code.google.com/p/vkontakte-android/issues/detail?id=20 Issue 20]_
   * Багфиксинг
     * Ошибка при синхронизации друзей (sqlite error 19)
+  * Улучшение интерфейса _[http://code.google.com/p/vkontakte-android/issues/detail?id=35 Issue 35]_
 
 
 *Версия 0.4*
