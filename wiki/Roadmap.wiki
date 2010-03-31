@@ -11,8 +11,8 @@
     * обработка тэгов HTML _[http://code.google.com/p/vkontakte-android/issues/detail?id=37 Issue 37]_
   * Капча _[http://code.google.com/p/vkontakte-android/issues/detail?id=12 Issue 12]_
   * Перевод на русский _[http://code.google.com/p/vkontakte-android/issues/detail?id=6 Issue 6] [http://code.google.com/p/vkontakte-android/issues/detail?id=20 Issue 20]_
-  * Багфиксинг
-    * Ошибка при синхронизации друзей (sqlite error 19)
+  * ~~Багфиксинг~~
+    * ~~Ошибка при синхронизации друзей (sqlite error 19)~~
   * Улучшение интерфейса _[http://code.google.com/p/vkontakte-android/issues/detail?id=29 Issue 29] [http://code.google.com/p/vkontakte-android/issues/detail?id=35 Issue 35]_
 
 
