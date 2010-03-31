@@ -35,6 +35,7 @@
     * редактирование _[http://code.google.com/p/vkontakte-android/issues/detail?id=5 Issue 5]_
   * Друзья
     * добавить/удалить из друзей _[http://code.google.com/p/vkontakte-android/issues/detail?id=27 Issue 27]_
+    * поиск друзей (фильтр)
   * Базовый функционал фотографий _[http://code.google.com/p/vkontakte-android/issues/detail?id=7 Issue 7]_
   * Стена _[http://code.google.com/p/vkontakte-android/issues/detail?id=32 Issue 32]_
   * Улучшение интерфейса
