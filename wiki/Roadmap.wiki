@@ -65,5 +65,6 @@
   * Виджет статусов _[http://code.google.com/p/vkontakte-android/issues/detail?id=39 Issue 39]_
   * Чат (мгновенные сообщения)
   * Счетчик трафика _[http://code.google.com/p/vkontakte-android/issues/detail?id=41 Issue 41]_
+  * Показывать друзей на Google Maps _[http://code.google.com/p/vkontakte-android/issues/detail?id=33 Issue 33]_
 
 *Версия 1.0*
